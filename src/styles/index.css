@@ -1,11 +1,73 @@
-/* 
+.gran-contenedor {
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    background-color: #73d1cc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:
+        0 4px 6px rgba(0, 0, 0, 0.1),
+        -8px 8px 0 rgba(220, 220, 220, 0.5),
+        -16px 16px 0 rgba(200, 200, 200, 0.4);
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
 
-*/
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #0e0d0d;
+    text-shadow: 0 0 5px #3638a1, 0 0 10px #ffb3c6;
+
+
+
+}
+
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 3px solid #6e6565;
+    border-radius: 5px;
+}
+
+.boton-eliminar {
+    background-color: #c6cac0;
+    color: #aac9a4;
+    padding: 6px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, background-color 0.3s;
+}
+
+.boton-eliminar:hover {
+    background-color: #888282;
+    transform: scale(1.1);
+}
+
+.tarea-item {
+    background-color: #ffffff;
+    padding: 12px 16px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    transition: transform 0.2s ease;
+}
+
+.tarea-item:hover {
+    transform: scale(1.02);
+}
